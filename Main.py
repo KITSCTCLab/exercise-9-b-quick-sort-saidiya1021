@@ -7,7 +7,7 @@ def division(data, low, high) -> List[int]:
           if data[j] <= piv:
                i = i+1
                data[i],data[j] = data[j],data[i]
-          data[i+1],data[high] = data[high],data[i+1]
+     data[i+1],data[high] = data[high],data[i+1]
      return ( i+1 )
 
 def quick_sort(data,low,high):
