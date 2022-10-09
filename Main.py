@@ -14,7 +14,7 @@ def quick_sort(data,low,high):
    if low < high:
       piv = division(data,low,high)
       quick_sort(data, low, piv-1)
-      quick_sort(data, pvi+1, high)
+      quick_sort(data, piv+1, high)
    return data
 
 
