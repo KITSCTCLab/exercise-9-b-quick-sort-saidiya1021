@@ -1,6 +1,6 @@
 from typing import List
 
-def quick_sort(data, low, high) -> List[int]:
+def division(data, low, high) -> List[int]:
      i = ( low-1 )
      piv = data[high]               
      for j in range(low , high):
@@ -12,9 +12,9 @@ def quick_sort(data, low, high) -> List[int]:
 
 def quick_sort(data,low,high):
    if low < high:
-      piv = partition(data,low,high)
-      quick_sort(data, low, pi-1)
-      quick_sort(data, pi+1, high)
+      piv = division(data,low,high)
+      quick_sort(data, low, piv-1)
+      quick_sort(data, pvi+1, high)
    return data
 
 
